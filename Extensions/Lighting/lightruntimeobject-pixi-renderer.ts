@@ -549,4 +549,5 @@ namespace gdjs {
 
   // @ts-ignore - Register the class to let the engine use it.
   export const LightRuntimeObjectRenderer = LightRuntimeObjectPixiRenderer;
+  export type LightRuntimeObjectRenderer = LightRuntimeObjectPixiRenderer;
 }
